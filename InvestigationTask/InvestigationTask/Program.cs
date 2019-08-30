@@ -52,7 +52,7 @@ namespace InvestigationTask
 
                 do
                 {
-                    Console.WriteLine("\nType the equation for no) " + (i + 1));
+                    Console.WriteLine("\nEnter the equation used to get the answer " + (i + 1));
 
                     ans = Console.ReadLine();
 
@@ -65,7 +65,7 @@ namespace InvestigationTask
 
         public static int Random
         {
-            get { return rnd.Next(1, 201); }
+            get { return rnd.Next(1, 320); }
         }
     }
 }
